@@ -1,6 +1,8 @@
+package stack;
+
 public class TreatmentStack {
     private static class Node {
-        private TreatmentRecord treatmentRecord;
+        private final TreatmentRecord treatmentRecord;
         private Node next;
 
         private Node(TreatmentRecord treatmentRecord) {

@@ -1,3 +1,5 @@
+package model;
+
 public class Patient {
     private int patientId;
     private String patientName;

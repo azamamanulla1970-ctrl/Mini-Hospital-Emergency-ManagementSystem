@@ -1,6 +1,8 @@
+package stack;
+
 public class TreatmentRecord {
-    private int patientId;
-    private String treatmentDetails;
+    private final int patientId;
+    private final String treatmentDetails;
 
     public TreatmentRecord(int patientId, String treatmentDetails) {
         this.patientId = patientId;

@@ -1,6 +1,10 @@
+package queue;
+
+import model.Patient;
+
 public class PatientQueue {
     private static class Node {
-        private Patient patient;
+        private final Patient patient;
         private Node next;
 
         private Node(Patient patient) {

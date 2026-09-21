@@ -1,3 +1,7 @@
+package bst;
+
+import model.Patient;
+
 public class PatientBST {
     private static class Node {
         private Patient patient;
